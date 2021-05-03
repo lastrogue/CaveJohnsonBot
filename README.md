@@ -4,4 +4,5 @@ A Discord Bot for welcome messages and random heart warming quotes from Cave Joh
 Dependencies:
 
 pip install -U discord.py
+
 pip install -U python-dotenv
