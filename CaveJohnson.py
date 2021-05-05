@@ -1,4 +1,4 @@
-# CaveJohnson.py
+## CaveJohnson.py
 import os
 import random
 
@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 load_dotenv()
 TOKEN = os.getenv('DISCORD_TOKEN')
 
-#client = discord.Client()
+##client = discord.Client()
 
 intents = discord.Intents.default()
 intents.members = True
@@ -21,9 +21,9 @@ async def on_ready():
 
 @client.event
 async def on_member_join(member):
-    await member.send("Welcome!")
+    await member.send("Welcome, gentlemen (or gentlewoman or gentleperson), to Aperture Science. Astronauts, war heroes, Olympians--you're here because we want the best, and you are it. So: Who is ready to make some science? If so take a look at our wiki found here: https://github.com/schmoomers/Schmoomer-s-Wiki/wiki. Additionally, take a look at our FAQ channel found in the discord server and the Welcome-Rules channel for some rules around here.")
 
-#Random quote generator. source: https://theportalwiki.com/wiki/Cave_Johnson_voice_lines
+##Random quote generator. source: https://theportalwiki.com/wiki/Cave_Johnson_voice_lines
 
 @client.event
 async def on_message(message):
@@ -32,8 +32,8 @@ async def on_message(message):
 
     cave_johnson_quotes = [
         "Welcome, gentlemen, to Aperture Science. Astronauts, war heroes, Olympians--you're here because we want the best, and you are it. So: Who is ready to make some science?",
-#50's
-#1952
+##50's
+##1952
 
         (
             "Welcome, gentlemen, to Aperture Science. Astronauts, war heroes, Olympians--you're here because we want the best, and you are it. So: Who is ready to make some science?"
@@ -72,7 +72,7 @@ async def on_message(message):
             "They say great science is built on the shoulders of giants. Not here. At Aperture, we do all our science from scratch. No hand holding."
         ),
 
-#1953
+##1953
 
         (
             "Alright, let's get started. This first test involves something the lab boys call 'repulsion gel.'"
@@ -99,7 +99,7 @@ async def on_message(message):
             "We haven't entirely nailed down what element it is yet, but I'll tell you this: it's a lively one, and it does NOT like the human skeleton."
         ),
 
-#1957
+##1957
 
         (
             "All these science spheres are made of asbestos, by the way. Keeps out the rats. Let us know if you feel a shortness of breath, a persistent dry cough or your heart stopping. Because that's not part of the test. That's asbestos."
@@ -119,7 +119,7 @@ async def on_message(message):
             "Just a heads-up: That coffee we gave you earlier had fluorescent calcium in it so we can track the neuronal activity in your brain. There's a slight chance the calcium could harden and vitrify your frontal lobe. Anyway, don't stress yourself thinking about it. I'm serious. Visualizing the scenario while under stress actually triggers the reaction."
         ),
 
-#1958
+##1958
 
         (
             "Now, if you're part of Control Group Kepler-Seven, we implanted a tiny microchip about the size of a postcard into your skull. Most likely you've forgotten it's even there, but if it starts vibrating and beeping during this next test, let us know, because that means it's about to hit five hundred degrees, so we're gonna need to go ahead and get that out of you pretty fast."
@@ -152,7 +152,7 @@ async def on_message(message):
             "Yes, you. Box. Your stuff. Out the front door. Parking lot. Car. Goodbye."
         ),
 
-#1959
+##1959
 
         (
             "Congratulations! The simple fact that you're standing here listening to me means you've made a glorious contribution to science."
@@ -170,8 +170,8 @@ async def on_message(message):
             "She is a gem."
         ),
 
-#70's
-#1971
+##70's
+##1971
 
         (
             "Greetings, friend. I'm Cave Johnson, CEO of Aperture Science - you might know us as a vital participant in the 1968 Senate Hearings on missing astronauts. And you've most likely used one of the many products we invented. But that other people have somehow managed to steal from us. Black Mesa can eat my bankrupt--"
@@ -192,7 +192,7 @@ async def on_message(message):
             "Anyway, don't smudge up the glass down there. In fact, why don't you just go ahead and not touch anything unless it's test related."
         ),
 
-#1972
+##1972
 
         (
             "The testing area's just up ahead. The quicker you get through, the quicker you'll get your sixty bucks."
@@ -208,7 +208,7 @@ async def on_message(message):
             "This on? [thump thump] Hey. Listen up down there. That thing's called an elevator. Not a bathroom."
         ),
 
-#1976
+##1976
 
         (
             "If you're interested in an additional sixty dollars, flag down a test associate and let 'em know. You could walk out of here with a hundred and twenty weighing down your bindle if you let us take you apart, put some science stuff in you, then put you back together good as new."
@@ -221,7 +221,7 @@ async def on_message(message):
             "So that's a complete reassembly. New vitals. Spit-shine on the old ones. Plus we're scooping out tumors. Frankly, you oughtta be paying us."
         ),
 
-#1978
+##1978
 
         (
             "Thank you - I can't believe I'm thanking these people - for staggering your way through Aperture Science's propulsion gel testing. You've made some real contributions to society for a change, and for that, humanity is grateful."
@@ -232,8 +232,8 @@ async def on_message(message):
         (
             "For many of you, I realize 60 dollars is an unprecedented windfall, so don't go spending it all on... I don't know. Caroline, what do these people buy? Tattered hats? Beard dirt?"
         ),
-#80's
-#1981
+##80's
+##1981
         (
             "Welcome to the enrichment center. [cough]"
         ),
@@ -258,7 +258,7 @@ async def on_message(message):
         (
             "That said, I would really appreciate it if you could test as fast as possible. Caroline, please bring me more pain pills."
         ),
-#1982
+##1982
         (
             "All right, I've been thinking. When life gives you lemons? Don't make lemonade. Make life take the lemons back! Get mad! 'I don't want your damn lemons! What am I supposed to do with these?'"
         ),
@@ -280,8 +280,8 @@ async def on_message(message):
         (
             "Allright, test's over. You can head on back to your desk."
         ),
-#Intercom messages at the VITRIFIED doors
-#1952
+##Intercom messages at the VITRIFIED doors
+##1952
         (
             "If you've cut yourself at all in the course of these tests, you might have noticed that your blood is pure gasoline. That's normal. We've been shooting you with an invisible laser that's supposed to turn blood into gasoline, so all that means is, it's working."
         ),
@@ -293,7 +293,7 @@ async def on_message(message):
         (
             "Just a heads up: We're gonna have a superconductor turned up full blast and pointed at you for the duration of this next test. I'll be honest, we're throwing science at the wall here to see what sticks. No idea what it'll do. Probably nothing. Best-case scenario, you might get some superpowers. Worst case, some tumors, which we'll cut out."
         ),
-#1971
+##1971
 
         (
             "If you're allergic to peanuts, you might want to tell somebody now, because this next test may turn your blood into peanut water for a few minutes. On the bright side, if we can make this happen, they're gonna have to invent a new type of Nobel Prize to give us, so hang in there."
@@ -306,7 +306,7 @@ async def on_message(message):
         (
             "All right. We're working on a little teleportation experiment. Now, this doesn't work with all skin types, so try to remember which skin is yours, and if it doesn't teleport along with you, we'll do what we can to sew you right back into it."
         ),
-#Perpetual Testing Initiative
+##Perpetual Testing Initiative
         (
             "Welcome, test subject, it's Cave. Prime. From Earth One. I am speaking to you from across time and space! I am literally in the future! I am--Hold on... [off mic] What? [on mic] Alright, my assistant Greg tells me none of that's true. Got excited. You are the first test subject we have ever sent into a parallel universe, which apparently has nothing to do with time travel. Still exciting. Anyway, you should be seeing a test chamber in front of you. We designed it, those backwater universe yokels built it, and you're gonna test it. Remember: You gotta let us know if it WORKS or not, otherwise you're wasting everybody's time on two earths. Alright, get to it."
         ),
