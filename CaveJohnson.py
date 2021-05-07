@@ -1064,6 +1064,10 @@ async def on_message(message):
         response = random.choice(cave_johnson_quotes)
         await message.channel.send(response)
 
+    if message.content == 'cantheyupdate?'
+        response = "What was that? Can they update? Look we made this science to exact specifications. If you want to update and cause a black hole to form in the middle of your living room, that's on you. You know what I say go for it and let the opposite of tried and true science be your guide."
+        await message.channel.send(response)
+
     if 'science' in message.content.lower():
         response = random.choice(cave_johnson_quotes)
         await message.channel.send(response)
