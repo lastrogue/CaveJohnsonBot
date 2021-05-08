@@ -36,9 +36,9 @@ async def on_member_join(member):
 #     await client.wait_until_ready()
 #     channel = client.get_channel(int(generalChannel))
 #     messages = [
-#                 "Welcome, gentlemen, to Aperture Science. Astronauts, war heroes, Olympians--you're here because we want the best, and you are it. So: Who is ready to make some science?",
+#                 "You test subjects always ask about updating, and just like I keep telling the lab boys...  There's only two kinds of people, those who don't update, and those who wish they hadn't.  So, stop worrying about updating, we've already got that stuff handled .  Now get back out there and keep testing!",
 #         (
-#             "Welcome, gentlemen, to Aperture Science. Astronauts, war heroes, Olympians--you're here because we want the best, and you are it. So: Who is ready to make some science?"
+#             "They tell me it's not a good idea to overclock your pi.  So I did it anyway...  And I gave everyone the ability to do!  All you do is go to HAL9000 --> System Tools -->Overclock Control Center and fire away!  Not gonna let those baboons tell me what I can & can't do.\n\nProbably worth mentioning, do so at your own risk, for science"
 #         ),
 #         (
 #             "Hey Greg, it worked! Welcome back, test subject! Now get back to work. Just because we own a universe made of money, doesn't mean I'm made of money. Cave Johnson. We're done here."
