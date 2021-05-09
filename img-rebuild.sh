@@ -17,6 +17,6 @@ docker build -t discord_py_cj .
 echo "Images rebuilt."
 # Starts the docker container in detached mode and always restarts
 echo "Starting Container....."
-docker run -d -restart always discord_py_cj
+docker run -d --restart always discord_py_cj
 echo "Container started."
 echo "Image rebuilt and container started."
