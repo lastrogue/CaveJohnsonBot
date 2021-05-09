@@ -536,6 +536,10 @@ async def on_message(message):
         response = random.choice(cave_johnson_quotes)
         await message.channel.send(response)
 
+    if 'cave' in message.content.lower():
+        response = random.choice(cave_johnson_quotes)
+        await message.channel.send(response)
+
     if 'science' in message.content.lower():
         response = random.choice(cave_johnson_quotes)
         await message.channel.send(response)
@@ -548,7 +552,7 @@ async def on_message(message):
         response = random.choice(cave_johnson_quotes)
         await message.channel.send(response)
 
-    if ' lab ' in message.content.lower():
+    if ' lab' in message.content.lower():
         response = random.choice(cave_johnson_quotes)
         await message.channel.send(response)
 
