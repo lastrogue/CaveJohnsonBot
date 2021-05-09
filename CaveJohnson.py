@@ -556,7 +556,11 @@ async def on_message(message):
         response = random.choice(cave_johnson_quotes)
         await message.channel.send(response)
 
-    if 'test' in message.content.lower():
+    if ' test' in message.content.lower():
+        response = random.choice(cave_johnson_quotes)
+        await message.channel.send(response)
+
+    if 'testing' in message.content.lower():
         response = random.choice(cave_johnson_quotes)
         await message.channel.send(response)
 
