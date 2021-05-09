@@ -30,23 +30,26 @@ async def on_ready():
 async def on_member_join(member):
     await member.send("Greetings new test subjects and welcome to Schmoomer's!\n\nNow, I know you’re excited to get your hands on the latest science'y goodness we've come up with, but the lab boys tell me we have to do this by the books after what happened to Snooky.\n\nSo, before we send you into the wild, go ahead and bookmark our technical reference found here: https://github.com/schmoomers/Schmoomer-s-Wiki/wiki then head over to <#" + faq + "> and <#" + welcome + "> channels and memorize our rules.\n\nOk, you don't need to memorize our rules, but you'll definitely wanna read them so that you don't end up like Snooky.\n\nOkay, I gotta run.  The lab boys are telling me they've made a breakthrough using breakfast burritos to power the new way-back machine!  That's good news if you like nostalgia, bad news if you like breakfast.\n\nOk, gotta run.  Don't forget to read the <#" + faq + "> to find out how to get your hands on the latest schmoo!\n\nOh, and one other thing... if you do happen to bump into Snooky, don't make any sudden moments. And for the love of God, don't stare.")
 
-#Random message at set interval. Quote source: https://theportalwiki.com/wiki/Cave_Johnson_voice_lines
-# @tasks.loop(minutes=5)
-# async def background_loop():
-#     await client.wait_until_ready()
-#     channel = client.get_channel(int(generalChannel))
-#     messages = [
-#                 "You test subjects always ask about updating, and just like I keep telling the lab boys...  There's only two kinds of people, those who don't update, and those who wish they hadn't.  So, stop worrying about updating, we've already got that stuff handled .  Now get back out there and keep testing!",
-#         (
-#             "They tell me it's not a good idea to overclock your pi.  So I did it anyway...  And I gave everyone the ability to do!  All you do is go to HAL9000 --> System Tools -->Overclock Control Center and fire away!  Not gonna let those baboons tell me what I can & can't do.\n\nProbably worth mentioning, do so at your own risk, for science"
-#         ),
-#         (
-#             "Hey Greg, it worked! Welcome back, test subject! Now get back to work. Just because we own a universe made of money, doesn't mean I'm made of money. Cave Johnson. We're done here."
-#         )
-#         ]
-#     await channel.send(random.choice(messages))
+#Random message at set interval.
+@tasks.loop(minutes=300)
+async def background_loop():
+    await client.wait_until_ready()
+    channel = client.get_channel(int(generalChannel))
+    messages = [
+                "You test subjects always ask about updating, and just like I keep telling the lab boys...  There's only two kinds of people, those who don't update, and those who wish they hadn't.  So, stop worrying about updating, we've already got that stuff handled .  Now get back out there and keep testing!",
+        (
+            "They tell me it's not a good idea to overclock your pi.  So I did it anyway...  And I gave everyone the ability to do!  All you do is go to HAL9000 --> System Tools -->Overclock Control Center and fire away!  Not gonna let those baboons tell me what I can & can't do.\n\nProbably worth mentioning, do so at your own risk, for science"
+        ),
+        (
+            "Hey Greg, it worked! Welcome back, test subject! Now get back to work. Just because we own a universe made of money, doesn't mean I'm made of money. Cave Johnson. We're done here."
+        ),
+        (
+            "Who said that!?!? Who used the AP word?  While those are some great guys over there...they aren't using official schmoo.!\n\nHave you ever tried off-brand mac & cheese??\n\nIf you're serious about testing, take a look at the <#" + faq + "> channel to find out how to get your hands on the real schmoo -- the source science that drives enjoyment around here!!  And if you want real life answers to you real life questions, don't be afraid to speak up and ask real questions!! We're all dedicated to helping out around here. Ok, back to work!"
+        )
+        ]
+    await channel.send(random.choice(messages))
 
-# background_loop.start()
+background_loop.start()
 
 ##Random quote generator. source: https://theportalwiki.com/wiki/Cave_Johnson_voice_lines
 
