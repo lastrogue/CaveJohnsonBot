@@ -216,47 +216,38 @@ async def on_message(message):
         (
             "For many of you, I realize 60 dollars is an unprecedented windfall, so don't go spending it all on... I don't know. Caroline, what do these people buy? Tattered hats? Beard dirt?"
         ),
-        (
-            "Welcome to the enrichment center. [cough]"
-        ),
+        # (
+        #     "Welcome to the enrichment center. [cough]"
+        # ),
         (
             "Since making test participation mandatory for all employees, the quality of our test subjects has risen dramatically. Employee retention, however, has not."
         ),
-        (
-            "[cough] As a result, you may have heard we're gonna phase out human testing. There's still a few things left to wrap up, though."
-        ),
-        (
-            "First up, conversion gel. [cough] (unused)"
-        ),
+        # (
+        #     "[cough] As a result, you may have heard we're gonna phase out human testing. There's still a few things left to wrap up, though."
+        # ),
+        # (
+        #     "First up, conversion gel. [cough] (unused)"
+        # ),
         (
             "The bean counters told me we literally could not afford to buy seven dollars worth of moon rocks, much less seventy million. Bought 'em anyway. Ground 'em up, mixed em into a gel."
         ),
+        # (
+        #     "And guess what? Ground up moon rocks are pure poison. I am deathly ill."
+        # ),
+        # (
+        #     "Still, it turns out they're a great portal conductor. So now we're gonna see if jumping in and out of these new portals can somehow leech the lunar poison out of a man's bloodstream. When life gives you lemons, make lemonade. [coughs] Let's all stay positive and do some science."
+        # ),
+        # (
+        #     "That said, I would really appreciate it if you could test as fast as possible. Caroline, please bring me more pain pills."
+        # ),
         (
-            "And guess what? Ground up moon rocks are pure poison. I am deathly ill."
-        ),
-        (
-            "Still, it turns out they're a great portal conductor. So now we're gonna see if jumping in and out of these new portals can somehow leech the lunar poison out of a man's bloodstream. When life gives you lemons, make lemonade. [coughs] Let's all stay positive and do some science."
-        ),
-        (
-            "That said, I would really appreciate it if you could test as fast as possible. Caroline, please bring me more pain pills."
-        ),
-        (
-            "All right, I've been thinking. When life gives you lemons? Don't make lemonade. Make life take the lemons back! Get mad! 'I don't want your damn lemons! What am I supposed to do with these?'"
-        ),
-        (
-            "Demand to see life's manager! Make life rue the day it thought it could give Cave Johnson lemons! Do you know who I am? I'm the man who's going to burn your house down! With the lemons! I'm going to get my engineers to invent a combustible lemon that burns your house down!"
+            "All right, I've been thinking. When life gives you lemons? Don't make lemonade. Make life take the lemons back! Get mad! 'I don't want your damn lemons! What am I supposed to do with these?' Demand to see life's manager! Make life rue the day it thought it could give Cave Johnson lemons! Do you know who I am? I'm the man who's going to burn your house down! With the lemons! I'm going to get my engineers to invent a combustible lemon that burns your house down!"
         ),
         (
             "The point is: If we can store music on a compact disc, why can't we store a man's intelligence and personality on one? So I have the engineers figuring that out now."
         ),
         (
-            "Brain Mapping. Artificial Intelligence. We should have been working on it thirty years ago. I will say this - and I'm gonna say it on tape so everybody hears it a hundred times a day: If I die before you people can pour me into a computer, I want Caroline to run this place."
-        ),
-        (
-            "Now she'll argue. She'll say she can't. She's modest like that. But you make her."
-        ),
-        (
-            "Hell, put her in my computer. I don't care."
+            "Brain Mapping. Artificial Intelligence. We should have been working on it thirty years ago. I will say this - and I'm gonna say it on tape so everybody hears it a hundred times a day: If I die before you people can pour me into a computer, I want Caroline to run this place. Now she'll argue. She'll say she can't. She's modest like that. But you make her. Hell, put her in my computer. I don't care."
         ),
         (
             "Allright, test's over. You can head on back to your desk."
@@ -327,9 +318,9 @@ async def on_message(message):
         (
             "Attention, test prisoners attempting to escape through the air ducts. I don't know what nonsense you learned on TV, but in real life, air ducts just go to the air conditioning unit. It's also pretty dusty, so if you've got asthma, chances are you're gonna die up there. And we'll be smelling it for weeks because, again, the air ducts aren't a secret escape hatch, they're how we ventilate the facility."
         ),
-        (
-            "[throat clear] This thing on? I'm gonna be brief. Because I'm dying. Because I got shivved. A lot. I just wanna get it on record that using force fields for doors in a space prison is a bad idea. You know what would have been better? Regular doors. With locks. Locks that don't open when the power goes out. [cough cough] Man, those blue force fields looked good, though. Every time I saw one, I thought, wow, I am in space. Still no a door made out of paper would have been better in the long run. Would have at least slowed them down for a second. Any way... anybody not escaping or shiving me, get back to work."
-        ),
+        # (
+        #     "[throat clear] This thing on? I'm gonna be brief. Because I'm dying. Because I got shivved. A lot. I just wanna get it on record that using force fields for doors in a space prison is a bad idea. You know what would have been better? Regular doors. With locks. Locks that don't open when the power goes out. [cough cough] Man, those blue force fields looked good, though. Every time I saw one, I thought, wow, I am in space. Still no a door made out of paper would have been better in the long run. Would have at least slowed them down for a second. Any way... anybody not escaping or shiving me, get back to work."
+        # ),
         (
             "Those of you who volunteered to be injected with homo sapien DNA, I've got some good news and some bad news: bad news is we're postponing those tests indefinitely. Good news is we've got a much better test for you: fighting an army of man-mantises. Pick up a set of foreleg spurs, mesothorax armor and tubercle sheaths. You'll know when the test starts."
         ),
@@ -438,9 +429,9 @@ async def on_message(message):
         (
             "Just a quick update on the attack of the killer ants. Apparently they tried to commandeer the entirety of our nation's sugar reserves in Kentucky. Big firefight at Fort Sugar Knox. Edge-of-your-seat stuff. Anyway, that's as far as I made it through the movie before I fell asleep. So if anybody's seen Attack of the Killer Ants, don't spoil the ending or you're fired. By the way, chariots chariots."
         ),
-        (
-            "[coughing] Hi mister, 's Timmy. Doc says I ain't gonna pull through, but if you could just finish this test, I bet we could lick this thing! [coughing]"
-        ),
+        # (
+        #     "[coughing] Hi mister, 's Timmy. Doc says I ain't gonna pull through, but if you could just finish this test, I bet we could lick this thing! [coughing]"
+        # ),
         (
             "Cavina Johnson here. It's come to my attention that one of you has sent a letter to the Supreme Council of Matriarchs accusing me of being a man. So, I want to assure both you and Gender Regulatory Committee that I am indeed one hundred percent all woman. And if you don't believe me, I swear to god I will beat you -- [off mic] What? [on mic] Greg tells -- [off mic] What? [on mic] Sally-Sue-Greg tells me we will all exchange handmade sympathy cards discussing how we feel about the issue. Alright, let's do some lady science!"
         ),
