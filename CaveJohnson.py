@@ -52,7 +52,11 @@ async def on_member_join(member):
 
 @client.event
 async def on_message(message):
-    if message.author == client.user:
+    # if message.author == client.user:
+    #     return
+    if (message.author.bot):
+        return
+    elif message.author == client.user:
         return
 
     cave_johnson_quotes = [
@@ -519,47 +523,39 @@ async def on_message(message):
         response = "Well, looks like the whole breakfast burrito thing was too good to be true.\n\nThe good news is, breakfast will resume being served daily.\n\nBad news for Larry the applied science guy.\n\nOh, and...   We need a new applied science guy"
         await message.channel.send(response)
 
-#     if message.content == 'letstest!':
-#         response = random.choice(cave_johnson_quotes)
-#         await message.channel.send(response)
-
-    if 'portal' in message.content.lower():
+    elif 'portal' in message.content.lower():
         response = random.choice(cave_johnson_quotes)
         await message.channel.send(response)
 
-    if 'cave' in message.content.lower():
+    elif 'cave' in message.content.lower():
         response = random.choice(cave_johnson_quotes)
         await message.channel.send(response)
 
-    if 'science' in message.content.lower():
+    elif 'science' in message.content.lower():
         response = random.choice(cave_johnson_quotes)
         await message.channel.send(response)
 
-    if 'valve' in message.content.lower():
+    elif 'valve' in message.content.lower():
         response = random.choice(cave_johnson_quotes)
         await message.channel.send(response)
 
-    if 'aperture' in message.content.lower():
+    elif 'aperture' in message.content.lower():
         response = random.choice(cave_johnson_quotes)
         await message.channel.send(response)
 
-    if ' lab' in message.content.lower():
+    elif ' lab' in message.content.lower():
         response = random.choice(cave_johnson_quotes)
         await message.channel.send(response)
 
-    if ' test' in message.content.lower():
+    elif ' test' in message.content.lower():
         response = random.choice(cave_johnson_quotes)
         await message.channel.send(response)
 
-    if 'testing' in message.content.lower():
+    elif 'testing' in message.content.lower():
         response = random.choice(cave_johnson_quotes)
         await message.channel.send(response)
 
-#     if message.content == 'cantheyupdate?'
-#         response = "What was that? Can they update? Look we made this science to exact specifications. If you want to update and cause a black hole to form in the middle of your living room, that's on you. You know what I say go for it and let the opposite of tried and true science be your guide."
-#         await message.channel.send(response)
-
-#     if 'arcade punks' in message.content.lower():
+#     elif 'arcade punks' in message.content.lower():
 #         response = "Who said that!?!? Who used the AP word? While those are some great guys over there. They don't have the official source of science (schmoo). Take a look at the <#" + faq + "> and the <#" + welcome + "> channels. Our wiki can be found here: https://github.com/schmoomers/Schmoomer-s-Wiki/wiki. Let's get ready to Science (Schmoo)! Oh and ask for help if you have any questions. They may not have the distinguished background I have, but they all do okay around here."
 #         await message.channel.send(response)
 
