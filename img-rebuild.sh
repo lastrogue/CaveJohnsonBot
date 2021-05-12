@@ -12,17 +12,17 @@ echo "--------------Removing images.....--------------"
 docker rmi $(docker images -q)
 echo "--------------Images removed.--------------"
 # Builds cj docker based on current docker configuration and files
-echo "--------------Rebuilding Image.....--------------"
+echo "--------------Rebuilding CaveJohnson Image.....--------------"
 docker build -t discord_py_cj . # Edit . to point to directory where cj dockerfile is located.
-echo "--------------Images rebuilt.--------------"
+echo "--------------CaveJohnson Image rebuilt.--------------"
 # Builds GLaDOS docker based on current docker configuration and files
-echo "--------------Rebuilding Image.....--------------"
+echo "--------------Rebuilding GLaDOS Image.....--------------"
 docker build -t discord_py_glados . # Edit . to point to directory where GLaDOS dockerfile is located.
-echo "--------------Images rebuilt.--------------"
+echo "--------------GLaDOS Image rebuilt.--------------"
 # Starts the cj docker container in detached mode and always restarts
-echo "--------------Starting cj Container.....--------------"
+echo "--------------Starting CaveJohnson Container.....--------------"
 docker run -d --restart always discord_py_cj
-echo "--------------Cj Container started.--------------"
+echo "--------------CaveJohnson Container started.--------------"
 # Starts the GLaDOS docker container in detached mode and always restarts
 echo "--------------Starting GLaDOS Container.....--------------"
 docker run -d --restart always discord_py_glados
