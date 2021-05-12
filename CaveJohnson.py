@@ -133,9 +133,9 @@ async def on_message(message):
         (
             "Now, if you're part of Control Group Kepler-Seven, we implanted a tiny microchip about the size of a postcard into your skull. Most likely you've forgotten it's even there, but if it starts vibrating and beeping during this next test, let us know, because that means it's about to hit five hundred degrees, so we're gonna need to go ahead and get that out of you pretty fast."
         ),
-        (
-            "I'm telling 'em, keep your pants on."
-        ),
+        # (
+        #     "I'm telling 'em, keep your pants on."
+        # ),
         (
             "Alright, this next test may involve trace amounts of time travel. So, word of advice: If you meet yourself on the testing track, don't make eye contact. Lab boys tell me that'll wipe out time. Entirely. Forward and backward! So do both of yourselves a favor and just let that handsome devil go about his business."
         ),
@@ -149,14 +149,14 @@ async def on_message(message):
             "THEY didn't fly into space, storm a beach, or bring back the gold. No sir, we did! It's you and me against the world, son! I like your grit! Hustle could use some work, though. Now let's solve this thing!"
         ),
         (
-            "Science isn't about WHY. It's about WHY NOT. Why is so much of our science dangerous? Why not marry safe science if you love it so much. In fact, why not invent a special safety door that won't hit you on the butt on the way out, because you are fired."
+            "Science isn't about WHY. It's about WHY NOT. Why is so much of our science dangerous? Why not marry safe science if you love it so much. In fact, why not invent a special safety door that won't hit you on the butt on the way out, because you are fired.\nNot you, test subject, you're doing fine.\nYes, you. Box. Your stuff. Out the front door. Parking lot. Car. Goodbye."
         ),
-        (
-            "Not you, test subject, you're doing fine."
-        ),
-        (
-            "Yes, you. Box. Your stuff. Out the front door. Parking lot. Car. Goodbye."
-        ),
+        # (
+        #     "Not you, test subject, you're doing fine."
+        # ),
+        # (
+        #     "Yes, you. Box. Your stuff. Out the front door. Parking lot. Car. Goodbye."
+        # ),
         (
             "Congratulations! The simple fact that you're standing here listening to me means you've made a glorious contribution to science."
         ),
@@ -166,12 +166,12 @@ async def on_message(message):
         (
             "We're not gonna release this stuff into the wild until it's good and damn ready, so as long as you keep yourself in top physical form, there'll always be a limo waiting for you."
         ),
-        (
-            "Say goodbye, Caroline."
-        ),
-        (
-            "She is a gem."
-        ),
+        # (
+        #     "Say goodbye, Caroline."
+        # ),
+        # (
+        #     "She is a gem."
+        # ),
         (
             "Greetings, friend. I'm Cave Johnson, CEO of Aperture Science - you might know us as a vital participant in the 1968 Senate Hearings on missing astronauts. And you've most likely used one of the many products we invented. But that other people have somehow managed to steal from us. Black Mesa can eat my bankrupt--"
         ),
@@ -191,11 +191,11 @@ async def on_message(message):
             "Anyway, don't smudge up the glass down there. In fact, why don't you just go ahead and not touch anything unless it's test related."
         ),
         (
-            "The testing area's just up ahead. The quicker you get through, the quicker you'll get your sixty bucks."
+            "The testing area's just up ahead. The quicker you get through, the quicker you'll get your sixty bucks.\nCaroline, are the compensation vouchers ready?"
         ),
-        (
-            "Caroline, are the compensation vouchers ready?"
-        ),
+        # (
+        #     "Caroline, are the compensation vouchers ready?"
+        # ),
         (
             "Great job, astronaut, war hero, and/or Olympian! With your help, we're gonna [tape cuts out]"
         ),
