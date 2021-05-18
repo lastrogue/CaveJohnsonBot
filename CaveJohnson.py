@@ -283,9 +283,9 @@ async def on_message(message):
         (
             "Cave here. Man oh man. Wow. Greg's multiple universe theory was dicey, but you're pulling through with flying colors. We're all very proud of Greg. [pause] Oh, and you."
         ),
-        (
-            "Before we start testing today, let's have our mandatory minute of silence in honor of Earth's governing body, the Sentient Cloud. [throat clear] Starting now. [a pause] [coughing] [a longer pause] [more coughing] [still more pausing] Good, right. All hail the sentient cloud. Begin testing."
-        ),
+        # (
+        #     "Before we start testing today, let's have our mandatory minute of silence in honor of Earth's governing body, the Sentient Cloud. [throat clear] Starting now. [a pause] [coughing] [a longer pause] [more coughing] [still more pausing] Good, right. All hail the sentient cloud. Begin testing."
+        # ),
         (
             "I've just been notified that one of our test subjects may have angered the Sentient Cloud by beginning testing early. Now, as you all know, the cloud has banned all camera technology--hates getting its picture taken. So this'll have to be on the honor system: Will whoever started testing early please go outside so they can be consumed by the Cloud."
         ),
@@ -349,9 +349,9 @@ async def on_message(message):
         (
             "Hello, test subjects. Good news first: our telekinesis incubation program has been a huge success. Bad news: The candidate screening process was a lot less successful. Let me tell you, we picked a real bunch of smart alecs to give mind-powers to. You hear me? Stop blowing up heads. [cocky] Actually, you know what? Negotiation's over. I'd like you all to meet Terry. He's -- [BLAM!] Real funny, guys. But the joke's on you. I taped all your paychecks to Terry's head. Ha! Why don't you put THAT in your head and blow it up?"
         ),
-        (
-            "That's right everybody, it's that time of year again: Happy Birth Day. You know the rules, everybody at the government-mandated maximum age needs to report to an ethnological redundancy associate toot suite. Looking through your files here--the following is a complete list of employees who need to snuff it. [coughs] Dorothy Russell, Age 98. End of list. Sorry about that, Dorothy. You had a good ninety-seven years, time to stop hoggin' all the resources. Leave some nutrient paste for the rest of us, why don't you. Cave Johnson, age fifty-one. We're done here."
-        ),
+        # (
+        #     "That's right everybody, it's that time of year again: Happy Birth Day. You know the rules, everybody at the government-mandated maximum age needs to report to an ethnological redundancy associate toot suite. Looking through your files here--the following is a complete list of employees who need to snuff it. [coughs] Dorothy Russell, Age 98. End of list. Sorry about that, Dorothy. You had a good ninety-seven years, time to stop hoggin' all the resources. Leave some nutrient paste for the rest of us, why don't you. Cave Johnson, age fifty-one. We're done here."
+        # ),
         (
             "Cave Johnson, junior claims representative for Aperture Science here. Well, former junior claims representative. Just found out I got laid off. Well, I'll just sneak into their recording office and let everyone know our president, that bastard Doug Rattmann, is embezzling funds. Enjoy your Christmas bonuses knowing he took most of them, jerks."
         ),
