@@ -547,13 +547,13 @@ async def on_message(message):
         response = random.choice(cave_johnson_quotes)
         await message.channel.send(response)
 
-    elif ' test' in message.content.lower():
-        response = random.choice(cave_johnson_quotes)
-        await message.channel.send(response)
+#    elif ' test' in message.content.lower():
+#        response = random.choice(cave_johnson_quotes)
+#        await message.channel.send(response)
 
-    elif 'testing' in message.content.lower():
-        response = random.choice(cave_johnson_quotes)
-        await message.channel.send(response)
+#    elif 'testing' in message.content.lower():
+#        response = random.choice(cave_johnson_quotes)
+#        await message.channel.send(response)
 
 #     elif 'arcade punks' in message.content.lower():
 #         response = "Who said that!?!? Who used the AP word? While those are some great guys over there. They don't have the official source of science (schmoo). Take a look at the <#" + faq + "> and the <#" + welcome + "> channels. Our wiki can be found here: https://github.com/schmoomers/Schmoomer-s-Wiki/wiki. Let's get ready to Science (Schmoo)! Oh and ask for help if you have any questions. They may not have the distinguished background I have, but they all do okay around here."
