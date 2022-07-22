@@ -28,7 +28,7 @@ async def on_ready():
 #Sends welcome message to new member
 @client.event
 async def on_member_join(member):
-    await member.send("Greetings new test subjects and welcome to the shiny new discord server you just joined!\n\nNow, I know you’re excited to get your hands on the latest science'y goodness we've come up with, but the lab boys tell me we have to do this by the books after what happened to Snooky.\n\nSo, before we send you into the wild, go ahead and bookmark our technical reference then head over to <#" + faq + "> and <#" + welcome + "> channels and memorize our rules.\n\nOk, you don't need to memorize our rules, but you'll definitely wanna read them so that you don't end up like Snooky.\n\nOkay, I gotta run.  The lab boys are telling me they've made a breakthrough using breakfast burritos to power the new way-back machine!  That's good news if you like nostalgia, bad news if you like breakfast.\n\nOk, gotta run.  Don't forget to read the <#" + faq + "> to find out how to get your hands on the latest schmoo!\n\nOh, and one other thing... if you do happen to bump into Snooky, don't make any sudden moments. And for the love of God, don't stare.")
+    await member.send("Greetings new test subjects and welcome to the shiny new discord server you just joined!\n\nNow, I know you’re excited to get your hands on the latest science'y goodness we've come up with, but the lab boys tell me we have to do this by the books after what happened to Ronaldo.\n\nSo, before we send you into the wild, go ahead and bookmark our technical reference then head over to <#" + faq + "> and <#" + welcome + "> channels and memorize our rules.\n\nOk, you don't need to memorize our rules, but you'll definitely wanna read them so that you don't end up like Ronaldo.\n\nOkay, I gotta run.  The lab boys are telling me they've made a breakthrough using breakfast burritos to power the new way-back machine!  That's good news if you like nostalgia, bad news if you like breakfast.\n\nOk, gotta run.  Don't forget to read the <#" + faq + "> to find out how to get your hands on the latest news!\n\nOh, and one other thing... if you do happen to bump into Ronaldo, don't make any sudden moments. And for the love of God, don't stare.")
 
 #Random message at set interval.
 # @tasks.loop(minutes=300)
@@ -554,9 +554,5 @@ async def on_message(message):
 #    elif 'testing' in message.content.lower():
 #        response = random.choice(cave_johnson_quotes)
 #        await message.channel.send(response)
-
-#     elif 'arcade punks' in message.content.lower():
-#         response = "Who said that!?!? Who used the AP word? While those are some great guys over there. They don't have the official source of science (schmoo). Take a look at the <#" + faq + "> and the <#" + welcome + "> channels. Our wiki can be found here: https://github.com/schmoomers/Schmoomer-s-Wiki/wiki. Let's get ready to Science (Schmoo)! Oh and ask for help if you have any questions. They may not have the distinguished background I have, but they all do okay around here."
-#         await message.channel.send(response)
 
 client.run(TOKEN)
